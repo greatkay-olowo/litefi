@@ -1,5 +1,6 @@
 ---
 deployment:
     tasks:
-        - export DEPLOYPATH=/home2/litefing/repositories/litefi
-        - /bin/cp index.html $DEPLOYPATH
+        - export DEPLOY_PATH=/home/your_username/public_html
+        - export REPO_PATH=/home2/litefing/repositories/litefi
+        - /bin/cp index.html $DEPLOY_PATH
